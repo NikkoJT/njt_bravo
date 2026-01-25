@@ -1,0 +1,18 @@
+2026-01-23
+- MUNITIONS: adjusted C-UAS function
+- GEAR MISC: fixed PASGT texture paths
+- MUNITIONS: changed trapped gun mine to delete the gun on detonation
+- BFT: adjusted BFT module to try to make the UI work
+- EXTRAS: changed Grenade of Several Possibilities function to improve response speed
+- EXTRAS: refactored Grunt Birthday Party system
+- PHONE: minor UI tweak
+- EXTRAS: improved some Grenade of Several Possibilities outcomes
+
+2026-01-24
+- BFT: updated module again
+- EXTRAS: updated GBP again
+- EXTRAS: tweaked Sax Bomb light handling
+- EXTRAS: refined Possibilities events more
+
+2026-01-25
+- MG34F2: added MG34F1 to CfgPatches weapons list
