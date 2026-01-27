@@ -16,3 +16,14 @@
 
 2026-01-25
 - MG34F2: added MG34F1 to CfgPatches weapons list
+
+2026-01-25 (2)
+- GEAR MISC: moved in config for 3CB and GM radio bag mass
+- MUNITIONS: fixed missing RF dependency
+- GEAR MISC: fixed missing classes in CfgPatches
+- BF RHS 6SH117 ARMORED: added to set
+
+2026-01-27
+- BFT: fixed old data being kept
+- PHONE: fixed wrong variable name
+- PHONE: changed to dialogs to fix ACE conflict
