@@ -23,7 +23,7 @@ class njt_bft_moduleDisplay : RscDisplayEmpty
 	access = 1;
 	enableSimulation = 1;
 	onLoad = "uiNamespace setVariable ['njt_bft_displayOpen',true]; 0 spawn njt_fnc_bftLoadUIData";
-	onUnload = "uiNamespace setVariable ['njt_bft_displayOpen',false];";
+	onUnload = "uiNamespace setVariable ['njt_bft_displayOpen',false]; uiNamespace setVariable ['njt_bft_currentObject',nil]";
 	class controls
 	{
 		class group : RscControlsGroup

@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/nikkojt";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"rf_data_loadorder", "UK3CB_Factions_Equipment_Vests","UK3CB_Factions_CST", "UK3CB_BAF_Equipment_Uniforms", "rhssaf_c_gear", "rhsusf_c_troops", "WW2_SPE_Assets_c_Weapons_InfantryWeapons_c"};
+		requiredAddons[] = {"rf_data_loadorder", "UK3CB_Factions_Equipment_Vests","UK3CB_Factions_CST", "UK3CB_BAF_Equipment_Uniforms", "rhssaf_c_gear", "rhsusf_c_troops", "WW2_SPE_Assets_c_Weapons_InfantryWeapons_c", "gm_characters_gc_characters", "gm_characters_ge_characters"};
 		units[] = {
 			"njt_6sh122_gloves_olive_unit",
 			"njt_cryeg3_bravocam_unit",

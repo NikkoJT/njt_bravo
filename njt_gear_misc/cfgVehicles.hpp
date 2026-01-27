@@ -1,5 +1,34 @@
 class cfgVehicles
 {
+	class tf_rt1523g_big;
+	class uk3cb_baf_b_rt1523g_base : tf_rt1523g_big
+	{
+		mass = 50;
+	};
+	class tf_anarc210;
+	class uk3cb_baf_b_anarc210_base : tf_anarc210
+	{
+		mass = 50;
+	};
+	class gm_backpack_base;
+	class gm_ge_backpack_sem35_base : gm_backpack_base
+	{
+		mass = 50;
+	};
+	class gm_gc_backpackr105m_base : gm_backpack_base
+	{
+		mass = 50;
+	};
+	class tfar_anprc155;
+	class uk3cb_b_i_radio_backpack : tfar_anprc155
+	{
+		mass = 50;
+	};
+	class tfar_mr3000;
+	class uk3cb_b_o_radio_backpack : tfar_mr3000
+	{
+		mass = 50;
+	};
 	class B_SPE_AssaultPack_Base;
 	class B_SPE_US_Radio : B_SPE_AssaultPack_Base
 	{
@@ -14,28 +43,28 @@ class cfgVehicles
 	class njt_B_SPE_US_Radio : B_SPE_US_Radio
 	{
 		scope = 2;
-		mass = 60;
+		mass = 50;
 		class transportItems
 		{};
 	};
 	class njt_B_SPE_US_Radio_alt : B_SPE_US_Radio_alt
 	{
 		scope = 2;
-		mass = 60;
+		mass = 50;
 		class transportItems
 		{};
 	};
 	class njt_B_SPE_US_Radio_packboard : B_SPE_US_Radio_packboard
 	{
 		scope = 2;
-		mass = 60;
+		mass = 50;
 		class transportItems
 		{};
 	};
 	class njt_B_SPE_US_Radio_packboard_light : B_SPE_US_Radio_packboard_light
 	{
 		scope = 2;
-		mass = 60;
+		mass = 50;
 		class transportItems
 		{};
 	};

@@ -85,7 +85,7 @@ class njt_messenger_display : RscDisplayEmpty
 				};
 				class buttonCancel : RscButton
 				{
-					onButtonClick = "ctrlParent (_this select 0) closeDisplay 2";
+					onButtonClick = "closeDialog 2";
 					text = "CANCEL";
 					idc = -1;
 					shadow = 0;

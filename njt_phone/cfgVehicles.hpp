@@ -19,7 +19,7 @@ class cfgVehicles
 					condition = "[_target, 'ACE_Cellphone'] call ace_common_fnc_hasItem";
 					exceptions[] = {"isNotInside", "isNotSitting", "notOnMap", "isNotInZeus"};
 					icon = "";
-					statement = "private _display = (findDisplay 46) createDisplay 'njt_zdas_display'; uiNamespace setVariable ['njt_zdas_display', _display];";
+					statement = "private _display = createDialog ['njt_zdas_display', false]; uiNamespace setVariable ['njt_zdas_display', _display];";
 				};
 				
 				class njt_messaging
@@ -28,7 +28,7 @@ class cfgVehicles
 					condition = "([_target, 'ACE_Cellphone'] call ace_common_fnc_hasItem) && {(date select 0) > 1985}";
 					exceptions[] = {"isNotInside", "isNotSitting", "notOnMap", "isNotInZeus"};
 					icon = "";
-					statement = "private _display = (findDisplay 46) createDisplay 'njt_messenger_display'; uiNamespace setVariable ['njt_messenger_display', _display];";
+					statement = "private _display = createDialog ['njt_messenger_display',false]; uiNamespace setVariable ['njt_messenger_display', _display];";
 				};
 			};
 		};
