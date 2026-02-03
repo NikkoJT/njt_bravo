@@ -1,4 +1,7 @@
-
+class CfgMagazineWells
+{
+	class XMS_556x45_Large;
+};
 class CfgWeapons
 {	
 	class arifle_mk20_plain_f;
