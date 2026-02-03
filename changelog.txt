@@ -30,3 +30,6 @@
 
 2026-02-02
 - CBA RAILS: added patches for Tier 1 Weapons, RHS/3CB, GM, WS, RF, and vanilla, to better apply CBA attachment slots to weapons
+
+2026-02-03
+- PHONE: attempted fix for message list not auto-scrolling to latest message
