@@ -34,7 +34,7 @@ if ((count _messages) > 0) then {
 	_listControl ctrlSetStructuredText _stringTotal;
 	_listControl ctrlSetPositionH ctrlTextHeight _listControl;
 	_listControl ctrlCommit 0;
-	(ctrlParentControlsGroup _listControl) ctrlSetScrollValues [1, 0];
+	(uiNamespace getVariable ["njt_messenger_messageListGroup", controlNull]) ctrlSetScrollValues [1, 0];
 	
 };
 

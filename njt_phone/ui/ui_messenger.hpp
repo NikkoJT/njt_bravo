@@ -157,6 +157,7 @@ class njt_messenger_display : RscDisplayEmpty
 				};
 				class innerGroup : RscControlsGroupNoHScrollBars
 				{
+					onLoad = "uiNamespace setVariable ['njt_messenger_messageListGroup', _this select 0];"
 					w = 23 * GUI_GRID_CENTER_W;
 					h = 15.5 * GUI_GRID_CENTER_H;
 					x = 1 * GUI_GRID_CENTER_W;
