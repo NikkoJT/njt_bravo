@@ -33,3 +33,4 @@
 
 2026-02-03
 - PHONE: attempted fix for message list not auto-scrolling to latest message
+- L85 MAGS: fixed error on magwells when WS not loaded
