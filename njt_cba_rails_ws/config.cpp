@@ -1,8 +1,8 @@
 class CfgPatches
 {
-	class njt_cba_rails_vanilla
+	class njt_cba_rails_ws
 	{
-		name = "CBA Rails Vanilla";
+		name = "CBA Rails WS";
 		author = "NikkoJT";
 		url = "https://github.com/nikkojt";
 		requiredVersion = 2.00;
