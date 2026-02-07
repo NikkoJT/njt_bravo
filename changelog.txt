@@ -34,3 +34,9 @@
 2026-02-03
 - PHONE: attempted fix for message list not auto-scrolling to latest message
 - L85 MAGS: fixed error on magwells when WS not loaded
+
+2026-02-07
+- L85 MAGS: REMOVED
+- MUNITIONS: fixed load order issue
+- CBA RAILS RHS3CB: moved L85 MAGS config in here
+- 6SH117: fixed load order issue

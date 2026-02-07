@@ -201,9 +201,6 @@ GEAR MISC
 	Combat Fatigues T-Shirt [ION] (Tropic MTP)
 	Combat Fatigues T-Shirt [ION] (Desert MTP)
 
-L85 MAGS
-- Enable CBA magwells for 3CB BAF L85 variants
-
 Phone
 - Add cellphone tool: Mk 42 Mod 0 ZDAS
 - Add cellphone tool: Messaging
@@ -219,7 +216,7 @@ CBA RAILS RF
 - Change RF weapons to make use of CBA attachment slots
 
 CBA RAILS RHS3CB
-- Change RHS/3CB weapons to make use of CBA attachment slots
+- Change RHS/3CB weapons to make use of CBA attachment slots and magwells
 
 CBA RAILS T1
 - Change Tier One weapons to make use of CBA attachment slots
