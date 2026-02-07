@@ -6,7 +6,7 @@ class CfgPatches
 		author = "NikkoJT";
 		url = "https://github.com/nikkojt";
 		requiredVersion = 2.00;
-		requiredAddons[] = {"A3_decade_F_loadorder", "UK3CB_BAF_Weapons_Ammo", "rhs_main_loadorder", "rf_data_loadorder"};
+		requiredAddons[] = {"A3_Data_F_Decade_Loadorder", "UK3CB_BAF_Weapons_Ammo", "rhs_main_loadorder", "rf_data_loadorder"};
 		units[] = {
 			"njt_trapped_gun_mine_nato",
 			"njt_trapped_gun_mine_natocw",
