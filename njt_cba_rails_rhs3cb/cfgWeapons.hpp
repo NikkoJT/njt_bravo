@@ -1,3 +1,7 @@
+class CfgMagazineWells
+{
+	class XMS_556x45_Large;
+};
 class asdg_OpticRail1913_short;
 class asdg_OpticRail1913_short_MG : asdg_OpticRail1913_short
 {};
@@ -114,6 +118,7 @@ class CfgWeapons
 	class arifle_Mk20_plain_F;
 	class UK3CB_BAF_L85A2 : arifle_Mk20_plain_F
 	{
+		magazineWell[] = {"STANAG_556x45","XMS_556x45_Large","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL"};
 		class WeaponSlotsInfo
 		{
 			class CowsSlot : asdg_OpticRail1913_short
@@ -127,6 +132,10 @@ class CfgWeapons
 			class CowsSlot : asdg_OpticRail1913_short
 			{};
 		};
+	};
+	class uk3cb_baf_l85a3 : uk3cb_baf_l85a2
+	{
+		magazineWell[] = {"STANAG_556x45","XMS_556x45_Large","CBA_556x45_STANAG","CBA_556x45_STANAG_L","CBA_556x45_STANAG_XL"};
 	};
 	
 	class EBR_base_F;
